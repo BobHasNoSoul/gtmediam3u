@@ -2,8 +2,8 @@ import requests
 import json
 
 # Define the base URLs
-channel_info_url = "http://192.168.1.178:181/getallservices?id=4400&count=700&page=-1"
-#epg_info_base_url = "http://192.168.1.178:181/proginfo?id="
+channel_info_url = "http://192.168.1.56:81/getallservices?id=4400&count=700&page=-1"
+#epg_info_base_url = "http://192.168.1.56:81/proginfo?id="
 
 # Send a GET request to retrieve channel information
 channel_info_response = requests.get(channel_info_url)
